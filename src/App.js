@@ -16,7 +16,7 @@ import Login from './components/Login';
 function App() {
   const [IsLoggedIn,setIsLoggedIn]=useState(false);
   return (
-    <div className='w-screen h-screen bg-[#000814] flex flex-col text-white'>
+    <div className='w-screen h-screen bg-[#000814] flex flex-col text-white overflow-x-hidden'>
       <Nav IsLoggedIn={IsLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
       {/* <SignUp/> */}
       {/* <Login/> */}
